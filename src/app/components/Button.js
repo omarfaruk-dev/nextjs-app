@@ -22,7 +22,9 @@ const Button = ({
         danger: 'bg-red-600 text-white hover:bg-red-700 focus:ring-red-500',
         warning: 'bg-yellow-600 text-white hover:bg-yellow-700 focus:ring-yellow-500',
         outline: 'border border-gray-300 bg-white text-gray-700 hover:bg-gray-50 focus:ring-indigo-500',
-        ghost: 'bg-transparent text-gray-700 hover:bg-gray-100 focus:ring-gray-500'
+        ghost: 'bg-transparent text-gray-700 hover:bg-gray-100 focus:ring-gray-500',
+        'hero-primary': 'bg-white text-indigo-600 hover:bg-gray-100 border-2 border-white focus:ring-white',
+        'hero-outline': 'border-2 border-white text-white hover:bg-white hover:text-indigo-600 focus:ring-white'
     };
     
     const sizes = {
