@@ -16,7 +16,7 @@ export default function ProductsPage() {
 
   return (
     <section className="min-h-screen bg-white text-gray-900 px-4 py-12">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-[1440px] mx-auto">
         <h1 className="text-3xl sm:text-4xl font-extrabold mb-2 text-gray-900 text-center">All Products</h1>
         <div className="text-center mb-8 text-gray-600">Total Products: {products.length}</div>
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">

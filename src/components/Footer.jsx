@@ -10,7 +10,7 @@ export default function Footer() {
 
   return (
     <footer className="w-full bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-blue-300 ">
-      <div className="max-w-7xl mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-8">
+      <div className="max-w-[1440px] mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-8">
         {/* Branding */}
         <div className="flex flex-col items-center md:items-start">
           <span className="text-2xl font-extrabold tracking-tight mb-1 text-blue-300">Next Product</span>
