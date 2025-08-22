@@ -11,7 +11,7 @@ export default function Hero() {
       </div>
 
       <div className="max-w-[1440px] mx-auto relative z-10">
-        <div className="flex flex-col lg:flex-row items-center justify-between py-24 px-4 lg:px-8">
+        <div className="flex flex-col lg:flex-row items-center justify-between py-16 px-4 lg:px-8">
           {/* Left Content */}
           <div className="flex-1 text-center lg:text-left mb-12 lg:mb-0 lg:pr-12">
             <div className="inline-flex items-center px-4 py-2 bg-red-50 border border-red-200 rounded-full text-red-600 text-sm font-medium mb-6">

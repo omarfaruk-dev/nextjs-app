@@ -9,34 +9,40 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="w-full bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-blue-300 ">
-      <div className="max-w-[1440px] mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-8">
-        {/* Branding */}
-        <div className="flex flex-col items-center md:items-start">
-          <span className="text-2xl font-extrabold tracking-tight mb-1 text-blue-300">Next Product</span>
-          <span className="text-sm text-blue-400">Your trusted online shop</span>
-        </div>
-        {/* Navigation */}
-        <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 text-sm font-medium items-center">
-          <a href="/" className="hover:underline hover:text-blue-400 transition-colors">Home</a>
-          <a href="/products" className="hover:underline hover:text-blue-400 transition-colors">Products</a>
-          <a href="/login" className="hover:underline hover:text-blue-400 transition-colors">Login</a>
-        </div>
-        {/* Social Icons */}
-        <div className="flex gap-4 items-center mt-4 md:mt-0">
-          <a href="https://www.facebook.com/omarfarukb7/" aria-label="Facebook" className="p-2 rounded-full bg-blue-500 hover:bg-blue-400 transition-colors">
-            <FaFacebookF className="w-4 h-4 text-gray-900" />
-          </a>
-          <a href="https://www.linkedin.com/in/dev-omar-faruk" aria-label="Instagram" className="p-2 rounded-full bg-blue-500 hover:bg-blue-400 transition-colors">
-            <FaLinkedin className="w-4 h-4 text-gray-900" />
-          </a>
-          <a href="https://x.com/omarfarukb7" aria-label="Twitter" className="p-2 rounded-full bg-blue-500 hover:bg-blue-400 transition-colors">
-            <FaTwitter className="w-4 h-4 text-gray-900" />
-          </a>
+    <footer className="w-full bg-gray-50 border-t border-gray-200">
+      <div className="max-w-[1440px] mx-auto px-4 py-12">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+          {/* Branding */}
+          <div className="flex flex-col items-center md:items-start">
+            <span className="text-2xl font-extrabold tracking-tight text-gray-900 mb-2">Next Product</span>
+            <span className="text-sm text-gray-600">Your trusted online shop</span>
+          </div>
+          
+          {/* Navigation */}
+          <div className="flex gap-6 text-sm font-medium">
+            <a href="/" className="text-gray-600 hover:text-red-500 transition-colors">Home</a>
+            <a href="/products" className="text-gray-600 hover:text-red-500 transition-colors">Products</a>
+            <a href="/login" className="text-gray-600 hover:text-red-500 transition-colors">Login</a>
+          </div>
+          
+          {/* Social Icons */}
+          <div className="flex gap-3">
+            <a href="https://www.facebook.com/omarfarukb7/" aria-label="Facebook" className="p-2 rounded-full bg-red-500 hover:bg-red-600 transition-colors">
+              <FaFacebookF className="w-4 h-4 text-white" />
+            </a>
+            <a href="https://www.linkedin.com/in/dev-omar-faruk" aria-label="LinkedIn" className="p-2 rounded-full bg-red-500 hover:bg-red-600 transition-colors">
+              <FaLinkedin className="w-4 h-4 text-white" />
+            </a>
+            <a href="https://x.com/omarfarukb7" aria-label="Twitter" className="p-2 rounded-full bg-red-500 hover:bg-red-600 transition-colors">
+              <FaTwitter className="w-4 h-4 text-white" />
+            </a>
+          </div>
         </div>
       </div>
-      <div className="border-t border-blue-400 text-center py-4 text-xs text-blue-400 bg-opacity-80">
-        &copy; {year} <span className="font-bold">Next Product</span>. All rights reserved.
+      
+      {/* Copyright */}
+      <div className="border-t border-gray-200 text-center py-4 text-xs text-gray-500 bg-gray-50">
+        &copy; {year} <span className="font-bold text-gray-700">Next Product</span>. All rights reserved.
       </div>
     </footer>
   );
