@@ -13,8 +13,8 @@ A modern, full-stack e-commerce demo app built with Next.js 15 (App Router), Nex
 
 1. **Clone the repository:**
 	```bash
-	git clone https://github.com/omarfaruk-dev/nextjs-app
-	cd nextjs-app
+	git clone <your-repo-url>
+	cd nexastore
 	```
 
 2. **Install dependencies:**
@@ -25,7 +25,7 @@ A modern, full-stack e-commerce demo app built with Next.js 15 (App Router), Nex
 3. **Configure environment variables:**
 	Create a `.env.local` file in the root with the following:
 	```env
-	NEXT_PUBLIC_MONGODB_URI=your_mongodb_atlas_uri
+	MONGODB_URI=your_mongodb_atlas_uri
 	DB_NAME=your_db_name
 	GOOGLE_CLIENT_ID=your_google_client_id
 	GOOGLE_CLIENT_SECRET=your_google_client_secret

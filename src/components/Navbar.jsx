@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <nav className="w-full bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 shadow-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 py-4">
-        <Link href="/" className="text-2xl font-extrabold tracking-tight text-blue-300 hover:text-white transition-colors">NexaProduct</Link>
+        <Link href="/" className="text-2xl font-extrabold tracking-tight text-blue-300 hover:text-white transition-colors">NexaStore</Link>
         {/* Hamburger button */}
         <button
           className="sm:hidden flex items-center px-3 py-2 border rounded text-gray-200 border-gray-600 hover:bg-gray-800 focus:outline-none"

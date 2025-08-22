@@ -24,19 +24,19 @@ export default function Footer() {
         </div>
         {/* Social Icons */}
         <div className="flex gap-4 items-center mt-4 md:mt-0">
-          <a href="https://www.facebook.com/omarfarukb7" aria-label="Facebook" className="p-2 rounded-full bg-blue-500 hover:bg-blue-400 transition-colors">
+          <a href="https://www.facebook.com/shihabuddinReal/" aria-label="Facebook" className="p-2 rounded-full bg-blue-500 hover:bg-blue-400 transition-colors">
             <FaFacebookF className="w-4 h-4 text-gray-900" />
           </a>
-          <a href="https://www.linkedin.com/in/dev-omar-faruk" aria-label="Instagram" className="p-2 rounded-full bg-blue-500 hover:bg-blue-400 transition-colors">
+          <a href="https://www.linkedin.com/in/shihab-dev" aria-label="Instagram" className="p-2 rounded-full bg-blue-500 hover:bg-blue-400 transition-colors">
             <FaLinkedin className="w-4 h-4 text-gray-900" />
           </a>
-          <a href="https://x.com/omarfarukb7" aria-label="Twitter" className="p-2 rounded-full bg-blue-500 hover:bg-blue-400 transition-colors">
+          <a href="https://x.com/shihab_dev" aria-label="Twitter" className="p-2 rounded-full bg-blue-500 hover:bg-blue-400 transition-colors">
             <FaTwitter className="w-4 h-4 text-gray-900" />
           </a>
         </div>
       </div>
       <div className="border-t border-blue-400 text-center py-4 text-xs text-blue-400 bg-opacity-80">
-        &copy; {year} <span className="font-bold">NexaProduct</span>. All rights reserved.
+        &copy; {year} <span className="font-bold">NexaStore</span>. All rights reserved.
       </div>
     </footer>
   );
