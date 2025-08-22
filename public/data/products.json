@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Premium Wireless Headphones",
+    "description": "High-quality wireless headphones with noise cancellation, 30-hour battery life, and premium sound quality. Perfect for music lovers and professionals.",
+    "price": 299.99,
+    "image": "https://i.postimg.cc/pdcxqxLw/Wireless-Headphones.webp"
+  },
+  {
+    "id": 2,
+    "name": "Smart Fitness Watch",
+    "description": "Advanced fitness tracking with heart rate monitoring, GPS, sleep tracking, and 7-day battery life. Water-resistant and compatible with all major fitness apps.",
+    "price": 199.99,
+    "image": "https://i.postimg.cc/Gmrcpqf5/Fitness-Watch.webp"
+  },
+  {
+    "id": 3,
+    "name": "Ultra HD 4K Camera",
+    "description": "Professional 4K camera with 20MP sensor, 4K video recording, 5-axis stabilization, and interchangeable lenses. Perfect for photography enthusiasts and content creators.",
+    "price": 899.99,
+    "image": "https://i.postimg.cc/d0Vw2DwR/4-K-Camera.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Gaming Laptop",
+    "description": "High-performance gaming laptop with RTX 4070, 16GB RAM, 1TB SSD, and 15.6-inch 144Hz display. Built for serious gamers and content creators.",
+    "price": 1499.99,
+    "image": "https://i.postimg.cc/QdbjKcGx/Gaming-Laptop.webp"
+  },
+  {
+    "id": 5,
+    "name": "Wireless Gaming Mouse",
+    "description": "Precision gaming mouse with 25K DPI sensor, programmable buttons, RGB lighting, and ultra-lightweight design. Perfect for competitive gaming.",
+    "price": 79.99,
+    "image": "https://i.postimg.cc/fTYzZ68d/Gaming-Mouse.webp"
+  }
+]
