@@ -1,5 +1,5 @@
 'use client'
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
 
 export default function Footer() {
@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-8">
         {/* Branding */}
         <div className="flex flex-col items-center md:items-start">
-          <span className="text-2xl font-extrabold tracking-tight mb-1 text-blue-300">NexaStore</span>
+          <span className="text-2xl font-extrabold tracking-tight mb-1 text-blue-300">Next Product</span>
           <span className="text-sm text-blue-400">Your trusted online shop</span>
         </div>
         {/* Navigation */}
@@ -24,19 +24,19 @@ export default function Footer() {
         </div>
         {/* Social Icons */}
         <div className="flex gap-4 items-center mt-4 md:mt-0">
-          <a href="https://www.facebook.com/shihabuddinReal/" aria-label="Facebook" className="p-2 rounded-full bg-blue-500 hover:bg-blue-400 transition-colors">
+          <a href="https://www.facebook.com/omarfarukb7/" aria-label="Facebook" className="p-2 rounded-full bg-blue-500 hover:bg-blue-400 transition-colors">
             <FaFacebookF className="w-4 h-4 text-gray-900" />
           </a>
-          <a href="https://www.linkedin.com/in/shihab-dev" aria-label="Instagram" className="p-2 rounded-full bg-blue-500 hover:bg-blue-400 transition-colors">
+          <a href="https://www.linkedin.com/in/dev-omar-faruk" aria-label="Instagram" className="p-2 rounded-full bg-blue-500 hover:bg-blue-400 transition-colors">
             <FaLinkedin className="w-4 h-4 text-gray-900" />
           </a>
-          <a href="https://x.com/shihab_dev" aria-label="Twitter" className="p-2 rounded-full bg-blue-500 hover:bg-blue-400 transition-colors">
+          <a href="https://x.com/omarfarukb7" aria-label="Twitter" className="p-2 rounded-full bg-blue-500 hover:bg-blue-400 transition-colors">
             <FaTwitter className="w-4 h-4 text-gray-900" />
           </a>
         </div>
       </div>
       <div className="border-t border-blue-400 text-center py-4 text-xs text-blue-400 bg-opacity-80">
-        &copy; {year} <span className="font-bold">NexaStore</span>. All rights reserved.
+        &copy; {year} <span className="font-bold">Next Product</span>. All rights reserved.
       </div>
     </footer>
   );
