@@ -93,10 +93,10 @@ export default async function ProductDetailsPage({ params }) {
 
               {/* Action Buttons */}
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="flex-1 bg-red-500 border-2 border-red-500 text-white font-semibold py-2 px-6 rounded-lg hover:bg-red-600 hover:border-red-600 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50">
+                <button className="flex-1 bg-red-500 border-2 border-red-500 text-white font-semibold py-2 px-6 rounded-lg hover:bg-red-600 hover:border-red-600 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50 text-center">
                   ADD TO CART
                 </button>
-                <button className="flex-1 bg-white border-2 border-red-500 text-red-500 font-semibold py-2 px-6 rounded-lg hover:bg-red-50 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50">
+                <button className="flex-1 bg-white border-2 border-red-500 text-red-500 font-semibold py-2 px-6 rounded-lg hover:bg-red-50 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50 text-center">
                   BUY NOW
                 </button>
               </div>

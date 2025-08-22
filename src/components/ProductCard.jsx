@@ -95,7 +95,7 @@ export default function ProductCard({ product, isHighlighted = false }) {
         {/* View Details Button */}
         <button
           onClick={handleViewDetails}
-          className="w-full bg-base-100 border-2 border-red-500 text-black font-semibold py-2 px-4 rounded-lg hover:bg-red-600 hover:border-red-600 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50 text-center"
+          className="w-full bg-base-100 border-2 border-red-500 text-black font-semibold py-2 px-4 rounded-lg hover:bg-red-600 hover:border-red-600 hover:text-white transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50 text-center"
         >
           VIEW DETAILS
         </button>
