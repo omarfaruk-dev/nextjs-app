@@ -40,6 +40,8 @@ export default function AddProductPage() {
   const handleSubmit = async e => {
     e.preventDefault();
     setLoading(true);
+    console.log("Submitting form..."); // Debug log
+    
     const res = await fetch("/api/products", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -52,17 +54,25 @@ export default function AddProductPage() {
         } : undefined
       })
     });
+    
     setLoading(false);
+    console.log("Response status:", res.status); // Debug log
+    
     if (res.ok) {
+      console.log("Success! Showing toast..."); // Debug log
       setForm({ name: "", description: "", price: "", image: "", category: "" });
       toast.success("Product added successfully!");
     } else {
+      console.log("Failed! Showing error toast..."); // Debug log
       toast.error("Failed to add product.");
     }
   };
 
   return (
     <div className="min-h-screen bg-gray-50 relative overflow-hidden">
+      {/* Toast Container - Root Level */}
+      <Toaster position="top-center" />
+      
       {/* Background decorative elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 right-20 w-64 h-64 bg-red-50 rounded-full mix-blend-multiply filter blur-3xl opacity-60"></div>
@@ -70,7 +80,6 @@ export default function AddProductPage() {
       </div>
 
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-16">
-        <Toaster position="top-center" />
         
         {/* Page Header */}
         <div className="text-center mb-12">
@@ -87,6 +96,17 @@ export default function AddProductPage() {
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Create and add new products to your store. Fill in the details below to get started.
           </p>
+          
+          {/* Test Toast Button */}
+          <button 
+            onClick={() => {
+              console.log("Test toast clicked");
+              toast.success("Test toast working!");
+            }}
+            className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
+          >
+            Test Toast
+          </button>
         </div>
 
         {/* Form Container */}
