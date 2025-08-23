@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "NexaStore Website",
-  description: "NexaStore is a Unique and Traditional Updated Website",
+  title: "Next Product | Buy Tech Product",
+  description: "Next Product is a Unique and Traditional eCommerce Web App",
 };
 
 export default function RootLayout({ children }) {
