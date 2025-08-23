@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <nav className="w-full bg-white shadow sticky top-0 z-50 border-b border-gray-100">
-      <div className="max-w-[1440px] mx-auto flex items-center justify-between px-4 sm:px-6 py-4">
+      <div className="max-w-[1440px] mx-auto flex items-center justify-between px-4 py-4">
         <Link href="/" className="text-2xl font-extrabold tracking-tight text-gray-900 hover:text-red-500 transition-colors">
           Next Product
         </Link>
